@@ -1,8 +1,7 @@
 ---
 applications:
-- name: spring-music
+- name: spring-music-blue
   memory: 512M
   instances: 1
   host: spring-music-${random-word}
   path: build/libs/spring-music.war
-
